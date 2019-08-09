@@ -1,0 +1,8 @@
+peca1 = input()
+peca2 = input()
+valor1 = float(peca1.split(" ")[2])
+valor2 = float(peca2.split(" ")[2])
+qt1 = int(peca1.split(" ")[1])
+qt2 = int(peca2.split(" ")[1])
+result = (qt1*valor1)+(qt2*valor2)
+print('VALOR A PAGAR: R$ {:.2f}'.format(result))
