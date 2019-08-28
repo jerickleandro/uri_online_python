@@ -1,5 +1,6 @@
 import re
 
+
 def divAporB(a,b):
         if(a%b==0):
                 return True
@@ -53,5 +54,4 @@ def proximaLetra(letra):
 
 def estaContido(frase,palavra):
         return re.search(palavra,frase, re.IGNORECASE)
-
 
