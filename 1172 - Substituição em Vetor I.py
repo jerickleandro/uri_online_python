@@ -7,3 +7,4 @@ for j in range(0,10):
         print("X[{}] = 1".format(j))
     else:
         print("X[{}] = {}".format(j,vetor[j]))
+        
