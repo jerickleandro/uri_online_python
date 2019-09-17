@@ -7,7 +7,7 @@ for i in range(0,t):
 maior = -1000
 
 for i in range(0,t):
-    if(maior<v[i]):
+    if maior<v[i]:
         maior = v[i]
 
 print(maior)

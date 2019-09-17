@@ -8,18 +8,18 @@ for c in range(1,N+1):
     Y = int(text.split(" ")[1])
     
     soma = 0
-    max = 0
-    min = 0
+    # _max
+    # _min
 
-    if(X>Y):
-        max = X
-        min = Y
+    if X>Y:
+        _max = X
+        _min = Y
     else:
-        max = Y
-        min = X
+        _max = Y
+        _min = X
 
-    for i in range(min,max):
-        if i != min & i != max:    
+    for i in range(_min,_max):
+        if i != _min & i != _max:    
             if i % 2 != 0 :
                 
                 soma = soma + i

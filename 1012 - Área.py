@@ -1,4 +1,4 @@
-text = input();
+text = input()
 A = float(text.split(" ")[0])
 B = float(text.split(" ")[1])
 C = float(text.split(" ")[2])
